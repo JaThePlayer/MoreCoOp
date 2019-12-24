@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- SACRED GROUND II -->
+  <!-- WAVES: 6 -->
+  <!-- SPAWNS: [TopLeft, TopRight, TopMid] - nodes [BotLeft, BotRight, BotMid] - no nodes -->
+  <!-- TREASURES: 1 -->
+  
+  <normal>
+    <!-- 1 -->
+    <wave>
+      <group>
+        <spawns>BotLeft,BotRight</spawns>
+        <enemies>[2]BlueSlime</enemies>
+      </group>
+	  <group>
+        <spawns>TopLeft,TopRight</spawns>
+        <enemies>[2]Bat</enemies>
+      </group>
+	  <group delay="60">
+        <spawns>BotMid, TopMid</spawns>
+        <enemies>[1*2]Skeleton</enemies>
+      </group>
+    </wave>
+	<!-- 2 -->
+    <wave>
+	  <group>
+        <spawns>BotLeft,BotRight</spawns>
+        <enemies>[2]BlueSlime</enemies>
+      </group>
+	  <group>
+        <spawns>TopLeft,TopRight</spawns>
+        <enemies>[2]Bat</enemies>
+      </group>
+	  <group>
+        <spawns>TopMid</spawns>
+        <enemies>Ghost</enemies>
+      </group>
+	  <group delay="60">
+        <spawns>TopMid,TopLeft,TopRight</spawns>
+        <enemies>[3]Ghost</enemies>
+      </group>
+	  <group>
+        <spawns>TopLeft,TopRight</spawns>
+        <enemies>[2]Bat</enemies>
+      </group>
+	</wave>
+	<!-- 3 -->
+    <wave>
+	  <group>
+        <treasure>Shield</treasure>
+      </group>
+	  <group>
+        <spawns>BotMid, TopMid</spawns>
+        <enemies>[2]Skeleton</enemies>
+      </group>
+	  <group delay="60">
+        <spawns>TopMid,TopLeft,TopRight</spawns>
+        <enemies>[3]Ghost</enemies>
+      </group>
+	  <group delay="30">
+        <spawns>BotLeft,BotRight</spawns>
+        <enemies>[2]BlueSlime</enemies>
+      </group>
+	  <group>
+        <spawns>TopLeft,TopRight</spawns>
+        <enemies>[2]Bat</enemies>
+      </group>
+    </wave>
+	<!-- 4 -->
+	<wave>
+	  <group>
+        <spawns>BotLeft, BotRight, BotMid, TopLeft, TopRight, TopMid</spawns>
+        <enemies>[6]Bat</enemies>
+      </group>
+	  <group delay="120">
+        <spawns>TopMid,TopLeft,TopRight</spawns>
+        <enemies>[3]Ghost</enemies>
+      </group>
+	</wave>
+  </normal>
+</data>
