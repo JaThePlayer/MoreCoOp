@@ -8,9 +8,12 @@
   <normal>
     <!-- 1 -->
     <wave>
+	  <group>
+        <treasure>MoreCoOp/TripleBomb</treasure>
+      </group>
       <group>
         <spawns>BotLeft,BotRight</spawns>
-        <enemies>[2]BlueSlime</enemies>
+        <enemies>[2]MoreCoOp/RainbowSlime</enemies>
       </group>
 	  <group>
         <spawns>TopLeft,TopRight</spawns>
@@ -59,7 +62,7 @@
       </group>
 	  <group delay="30">
         <spawns>BotLeft,BotRight</spawns>
-        <enemies>[2]BlueSlime</enemies>
+        <enemies>[2]MoreCoOp/RainbowSlime</enemies>
       </group>
 	  <group>
         <spawns>TopLeft,TopRight</spawns>
@@ -100,11 +103,11 @@
       </group>
 	  <group delay="30">
         <spawns>BotLeft,BotRight</spawns>
-        <enemies>[2]BlueSlime</enemies>
+        <enemies>[2]MoreCoOp/RainbowSlime</enemies>
       </group>
 	  <group delay="30">
         <spawns>BotLeft,BotRight</spawns>
-        <enemies>[2]Slime</enemies>
+        <enemies>[2]MoreCoOp/RainbowSlime</enemies>
       </group>
     </wave>
   </normal>
@@ -112,15 +115,18 @@
   <hardcore>
     <!-- 1 -->
     <wave>
+	  <group>
+        <treasure>MoreCoOp/TripleBomb</treasure>
+      </group>
       <group>
         <spawns>BotLeft,BotRight</spawns>
-        <enemies>[2]BlueSlime</enemies>
+        <enemies>[2]MoreCoOp/RainbowSlime</enemies>
       </group>
 	  <group>
         <spawns>TopLeft,TopRight</spawns>
         <enemies>[2]Bat</enemies>
       </group>
-	  <group>
+	  <group delay="60">
         <spawns>BotMid, TopMid</spawns>
         <enemies>[2]Skeleton</enemies>
       </group>
@@ -129,11 +135,11 @@
     <wave>
 	  <group>
         <spawns>BotLeft,BotRight, BotMid</spawns>
-        <enemies>[3]BlueSlime</enemies>
+        <enemies>[3]MoreCoOp/RainbowSlime</enemies>
       </group>
 	  <group>
-        <spawns>TopLeft,TopRight</spawns>
-        <enemies>[2]Bat</enemies>
+        <spawns>TopLeft,TopRight,TopMid</spawns>
+        <enemies>[3]Bat</enemies>
       </group>
 	  <group>
         <spawns>TopMid, BotMid</spawns>
@@ -158,20 +164,20 @@
         <enemies>[2]Skeleton</enemies>
       </group>
 	  <group>
-        <spawns>TopLeft,TopRight</spawns>
-        <enemies>[2]Ghost</enemies>
+        <spawns>TopLeft,TopRight, TopMid</spawns>
+        <enemies>[3]Ghost</enemies>
       </group>
 	  <group>
         <spawns>BotLeft,BotRight</spawns>
-        <enemies>[2]BlueSlime</enemies>
+        <enemies>[2]MoreCoOp/RainbowSlime</enemies>
       </group>
 	  <group>
-        <spawns>TopLeft,TopRight</spawns>
-        <enemies>[2]Bat</enemies>
+        <spawns>TopLeft,TopRight, TopMid</spawns>
+        <enemies>[3]Bat</enemies>
       </group>
 	  <group delay="30">
         <spawns>BotLeft,BotRight</spawns>
-        <enemies>[2]BlueSlime</enemies>
+        <enemies>[2]MoreCoOp/RainbowSlime</enemies>
       </group>
     </wave>
 	<!-- 4 -->
@@ -186,7 +192,7 @@
       </group>
 	  <group delay="30">
         <spawns>TopLeft,TopRight,TopMid</spawns>
-        <enemies>[3]Bat</enemies>
+        <enemies>[3]MoreCoOp/RainbowSlime</enemies>
       </group>
 	  <group>
         <spawns>BotMid, TopMid</spawns>
@@ -208,7 +214,7 @@
       </group>
 	  <group>
         <spawns>BotLeft,BotRight,BotMid</spawns>
-        <enemies>[3]BlueSlime</enemies>
+        <enemies>[3]MoreCoOp/RainbowSlime</enemies>
       </group>
 	  <group delay="60">
         <spawns>BotLeft, BotRight, BotMid, TopLeft, TopRight, TopMid</spawns>

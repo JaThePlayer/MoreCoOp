@@ -77,11 +77,6 @@
   <Entities>
     <PlayerSpawn x="90" y="150" id="0" />
     <PlayerSpawn x="230" y="150" id="1" />
-    <CrackedPlatform x="110" y="160" width="40" id="2" />
-    <CrackedPlatform x="170" y="160" width="40" id="3" />
-    <CrackedPlatform x="50" y="60" width="40" id="4" />
-    <CrackedPlatform x="230" y="60" width="40" id="5" />
-    <CrackedPlatform x="130" y="70" width="60" id="8" />
     <TreasureChest x="50" y="190" id="9" />
     <TreasureChest x="270" y="190" id="10" />
     <TreasureChest x="30" y="80" id="11" />
@@ -101,6 +96,8 @@
     <BGSkeleton x="290" y="210" id="25" />
 	<Spawner x="100" y="50" id="6" name="TopLeft"/>
     <Spawner x="220" y="50" id="7" name="TopRight"/>
+	<Spawner x="90" y="200" id="28" name="BotLeft"/>
+    <Spawner x="230" y="200" id="29" name="BotRight"/>
     <Spawner x="160" y="95" id="26" name="Mid">
 		<node x="100" y="110" />
 		<node x="220" y="110" />
