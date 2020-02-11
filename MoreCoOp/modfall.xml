@@ -1,0 +1,6 @@
+<mod>
+	<name>More Co-Op</name>
+    <version>1.1.0</version>
+	<dll>Code/MoreCoOp/bin/Debug/MoreCoOp</dll>
+	<github>https://github.com/JaThePlayer/MoreCoOp</github>
+</mod>
